@@ -1,0 +1,153 @@
+
+
+
+body {
+    font-family: "Noto Sans JP", verdana, arial, helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+nav h1 {
+font-size: 24px;
+font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-betwee;
+}
+
+
+nav li {
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+#about {
+    width: 88%;
+    margin: 80px auto;
+}
+
+#about h1 {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.about img {
+    width: 45%;
+}
+
+.about p {
+    width: 45%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+#course {
+    width: 88%;
+    margin: 80px auto;
+}
+
+#course ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+#course h1 {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+#course img {
+    width: 100%;
+}
+
+#course li {
+    width: 29%;
+}
+
+.header {
+    background-image: url(main-vsual.png);
+    background-size: cover;
+    height: 400px;
+}
+
+#info {
+    margin: 80px auto 100px;
+}
+
+#info h1 {
+    font-size: 24px;
+    font-weight: bold;
+
+} 
+
+.info p {
+    margin-top: 40px;
+    margin-bottom: 5px; 
+}
+
+form {
+    display: block;
+}
+
+.info input {
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 20px;
+    line-height: 2.5;
+    border-radius: 25px;
+    border: solid 1px #ccc;
+    
+}
+
+.btn {
+    background-color: rgb(218,51,85);
+    color: #fff;
+    box-shadow: 0 6px rgb(145,0,29);
+    cursor: pointer;
+    padding: 20px 0;
+    width: 300px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 15px auto;
+}
+
+.btn:active {
+    position: relative;
+    top: 6px;
+    box-shadow: none;
+}
+
+footer {
+    font-size: 0.725rem;
+    text-align: right;
+    color: #444;
+    border-top: solid 1px #ccc;
+    padding: 15px;
+    margin-bottom: 40px;
+}
