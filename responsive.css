@@ -1,5 +1,72 @@
 @media all and (max-width: 480px) {
     nav {
-      
+      display: flex;
+      flex-direction: column;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 50px;
+    }
+
+    nav ul {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    }
+
+    #about {
+    margin: 62px auto 80px;
+    }
+
+    .about {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .about img {
+      width: 100%;
+      margin-bottom: 20px
+    }
+
+    .about p {
+        width: 100%;
+        font-size: 2rem;
+        line-height: 2;
+        margin-bottom: 20px
+    }
+
+    #course ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #course li {
+        width: 100%;
+        font-size: 2rem;
+        margin-bottom: 50px;
+    }
+
+    .info p {
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+
+    .info input {
+        width: 1030px;
+        font-size: 2rem;
+        margin-bottom: 25px;
+        padding: 5px 0 5px 35px ;
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 1.5rem;
     }
 }
